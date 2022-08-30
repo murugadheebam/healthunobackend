@@ -26,15 +26,10 @@ const Doctors = new mongoose.Schema({
     country:{type:String},
     state:{type:String},
     city:{type:String},
-
-
-
-
 });
 const Languages = new mongoose.Schema({
     name:{type:String},
 });
-
 
 const Resuser = mongoose.model('res_users', ResUsers);
 const Doctor = mongoose.model('doctors', Doctors);
